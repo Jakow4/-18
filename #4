@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(void) {
+	float F = 27;
+	float C;
+	printf("C = %f\n", (F - 32)/1.8);
+	return 0;
+}

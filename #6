@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void) {
+	float x = 2.55;
+	float C;
+	C = 3*powf(x, 3) - 5*powf(x, 2) + 6;
+	printf("C = %f", C);
+	return 0;
+}
